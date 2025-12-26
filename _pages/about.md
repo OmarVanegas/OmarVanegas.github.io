@@ -45,9 +45,9 @@ Ph.D. Student/Graduate Teaching Assistant, Florida International University (FIU
 
 ## *CV*
 
-[Download CV
+Download CV (PDF)
 
-<ailes/CV_Omar_Vanegas.pdfDownload CV</a>
+<a href="/files/CV_Omar_Vanegas.pdfCV (PDF)</a>
 
 
 
