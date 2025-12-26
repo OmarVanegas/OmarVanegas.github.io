@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* **Ph.D student in Economics, Florida International University, Jan 2024 — 2028 (expected).**
-* **M.A. in Economics, Universidad Externado de Colombia, Jun 2019 — May 2020.**
-* **B.S. in Economics, Universidad Externado de Colombia, Jan 2014 — Sep 2018.**
-* **Diploma Course in R and Phyton applied for data analysis, Universidad Sergio Arboleda, Mar 2022 — Jul 2022.**
-* **Summer course “Beyond OLS Categorical Choice and Count Models”, University of Essex, Jun 2020 — Aug 2020.**
+* **Ph.D student in Economics**, *Florida International University, 2028 (expected).*
+* **M.A. in Economics**, *Universidad Externado de Colombia, 2020.*
+* **B.S. in Economics**, *Universidad Externado de Colombia, 2018.*
+* **Diploma Course in R and Phyton applied for data analysis**, *Universidad Sergio Arboleda, 2022.*
+* **Summer course “Beyond OLS Categorical Choice and Count Models”**, *University of Essex, 2020.*
 
 Work experience
 ======
