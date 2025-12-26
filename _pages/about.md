@@ -5,6 +5,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+
+cvurl: ‘https://OmarVanegas.github.io/files/CV_Omar_Vanegas.pdf’
 ---
 
 ## *Research Interests*
@@ -45,7 +47,7 @@ Ph.D. Student/Graduate Teaching Assistant, Florida International University (FIU
 
 ## *CV*
 
-[Download CV (PDF)]({{ "/files/CV_Omar_Vanegas.pdf" | relative
+
 
 
 
