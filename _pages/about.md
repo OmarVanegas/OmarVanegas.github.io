@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Economist"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Economist
+Reseach Interests
 ======
 
 Development Economics, Data Science, Economics of Education, Transport Economics, and Causal Inference.
