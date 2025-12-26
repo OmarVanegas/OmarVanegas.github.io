@@ -41,12 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-
----
----
-/* Override para avatar cuadrado */
-.author__avatar img,
-img.avatar {
-  border-radius: 0 !important;
-}
