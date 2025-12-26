@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Reseach Interests
+Research Interests
 ======
 
 Development Economics, Data Science, Economics of Education, Transport Economics, and Causal Inference.
