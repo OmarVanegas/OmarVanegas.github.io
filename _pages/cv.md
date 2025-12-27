@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "[CV](https://github.com/OmarVanegas/OmarVanegas.github.io/raw/master/files/CV_Omar_Vanegas.pdf)"
 permalink: /cv/
 author_profile: true
 redirect_from:
