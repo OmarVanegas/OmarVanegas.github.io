@@ -24,7 +24,7 @@ Development Economics, Data Science, Economics of Education, Transport Economics
 
 
 
-## *CV* 
+## *You can find my CV [here](https://github.com/OmarVanegas/OmarVanegas.github.io/raw/master/files/CV_Omar_Vanegas.pdf)* 
 <a href="{{ page.cvurl }}"V</a>
 
 
