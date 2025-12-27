@@ -1,25 +1,43 @@
 
-/* --- Mover la sidebar a la derecha --- */
+/* --- Hacer la barra lateral más ancha --- */
 
-/* Invertir el orden del contenedor principal */
+/* Contenedor principal con sidebar a la derecha */
 .page__inner {
   display: flex;
-  flex-direction: row-reverse; /* sidebar pasa a la derecha */
+  flex-direction: row-reverse;
+  align-items: flex-start;
 }
 
-/* Ajustar márgenes para que se vea bien */
+/* Sidebar: ancho fijo mayor */
 .sidebar {
-  margin-left: 2rem; /* espacio entre contenido y sidebar */
-  margin-right: 0;
+  flex: 0 0 340px;   /* ancho fijo: cámbialo a 360px, 380px si quieres más */
+  max-width: 380px;  /* límite opcional */
 }
 
-/* En pantallas pequeñas, mantener diseño vertical */
+/* Contenido principal: ocupa el resto */
+.page__content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* Ajustes internos para evitar desbordes */
+.sidebar img,
+.sidebar .author__avatar img,
+.sidebar .author__content,
+.sidebar .author__urls-wrapper {
+  max-width: 100%;
+}
+
+/* Responsive: en móviles, sidebar ocupa todo el ancho */
 @media (max-width: 900px) {
   .page__inner {
     flex-direction: column;
   }
 
   .sidebar {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: none;
     margin-left: 0;
     margin-right: 0;
   }
