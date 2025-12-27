@@ -1,1 +1,27 @@
 
+/* --- Mover la sidebar a la derecha --- */
+
+/* Invertir el orden del contenedor principal */
+.page__inner {
+  display: flex;
+  flex-direction: row-reverse; /* sidebar pasa a la derecha */
+}
+
+/* Ajustar márgenes para que se vea bien */
+.sidebar {
+  margin-left: 2rem; /* espacio entre contenido y sidebar */
+  margin-right: 0;
+}
+
+/* En pantallas pequeñas, mantener diseño vertical */
+@media (max-width: 900px) {
+  .page__inner {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
