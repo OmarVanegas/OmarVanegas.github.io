@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "[CV](https://github.com/OmarVanegas/OmarVanegas.github.io/raw/master/files/CV_Omar_Vanegas.pdf)"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+## *You can find my CV [here](https://github.com/OmarVanegas/OmarVanegas.github.io/raw/master/files/CV_Omar_Vanegas.pdf)* 
 
 Education
 ======
