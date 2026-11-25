@@ -1,76 +1,29 @@
-/* === 1) Mover todo más a la derecha (añadir margen a la izquierda) === */
-/* Aplica un margen a la envoltura principal para empujar el contenido hacia la derecha.
-   Si tu tema usa .page, .wrap o .container, estas reglas lo cubren. */
-.page, .wrap, .container, .page__inner {
-  margin-left: 48px;     /* AJUSTA: 32–64px según lo que quieras */
-}
+/* === Barra lateral más ancha + foto más grande (solo pantallas grandes) === */
+@media (min-width: 1024px) {
 
-/* === 2) Sidebar a la derecha y más ancha === */
-.page__inner {
-  display: flex;
-  flex-direction: row-reverse;  /* sidebar a la derecha */
-  align-items: flex-start;
-}
-
-.sidebar {
-  /* haz la barra lateral más ancha */
-  flex: 0 0 360px;       /* AJUSTA: 340–420px */
-  max-width: 420px;      /* límite opcional */
-}
-
-/* El contenido ocupa el resto del ancho disponible */
-.page__content {
-  flex: 1 1 auto;
-  min-width: 0;
-}
-
-/* === 3) Imagen de la sidebar más ancha === */
-/* Muchos temas usan un contenedor .author__avatar o .author__image para la foto. */
-.author__avatar,
-.author__image {
-  width: 100%;           /* que use todo el ancho de la sidebar */
-  max-width: none;
-}
-
-.author__avatar img,
-.author__image img {
-  display: block;
-  width: 100%;           /* la imagen se ensancha con la sidebar */
-  height: auto;          /* mantiene proporciones */
-  object-fit: cover;     /* recorte elegante si fuera necesario */
-  border-radius: 4px;    /* opcional: esquinas suaves */
-}
-
-/* (Opcional) separa visualmente sidebar y contenido si lo deseas */
-.page__inner {
-  gap: 1.5rem;
-}
-
-/* === Responsive: en móviles, apilar y usar ancho completo === */
-@media (max-width: 900px) {
-  .page, .wrap, .container, .page__inner {
-    margin-left: 0;      /* no empujes a la derecha en pantallas pequeñas */
-  }
-
-  .page__inner {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
+  /* Barra lateral: aquí vive la foto */
   .sidebar {
-    flex: 0 0 auto;
-    width: 100%;
-    max-width: none;
-    margin-left: 0;
-    margin-right: 0;
+    width: 340px !important;      /* AJUSTA: 300–420px */
+  }
+
+  /* Contenido principal: ocupa el resto */
+  .page,
+  .archive {
+    width: calc(100% - 380px) !important;  /* = ancho sidebar + 40px de aire */
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  /* La foto llena todo el ancho de la barra lateral */
+  .author__avatar {
+    width: 100% !important;
+  }
+
+  .author__avatar img {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto;
+    border-radius: 4px;
   }
 }
-
-
-
-/* === Empujar el layout hacia la derecha === */
-/* Estos selectores cubren la mayoría de temas (usa los que existan en tu HTML). */
-.page, .wrap, .container, .page__inner {
-  margin-left: 48px;      /* AJUSTA: 32–64px según tu gusto */
-}
- 
